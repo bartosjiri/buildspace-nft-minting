@@ -73,14 +73,21 @@
 
 .footer-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 30px;
 }
 
-.twitter-logo {
+.footer-container a {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
   width: 35px;
   height: 35px;
+  margin-right: 10px;
 }
 
 .footer-text {
